@@ -1,4 +1,6 @@
-.body { width: 100%; height: 100%; }
+.body {
+	width: 100%; height: 100%;
+}
 
 .header {
 	background: #000000;
@@ -9,7 +11,13 @@
 	font: 25px Tahoma;
 }
 
-.content1 u { color: #ff0000; }
+.wrapper {
+	width: 1240px;
+}
+
+.content1 u {
+	color: #ff0000;
+}
 
 .content2 {
 	background: lightgray;
@@ -33,11 +41,18 @@
 	left: 350px;
 }
 
-.content4 u { color: #ff0000; }
-.content4 p { color: #0000ff; }
+.content4 u {
+	color: #ff0000;
+}
+.content4 p {
+	color: #0000ff;
+}
 .content4 strong {
 	background-color: black;
-	font-style: Tahoma;
+	font-size: 17px;
 	color: yellow;
- }
- .content4 ul { list-style: circle; }
+}
+.content4 li {
+	height: 25px;
+ 	list-style: circle;
+}
